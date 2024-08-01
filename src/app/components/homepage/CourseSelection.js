@@ -43,7 +43,7 @@ const Main = styled.main`
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 74px 20px 0;
+  padding: 25px 15px 0;
   box-sizing: border-box;
 
   @media (max-width: 991px) {
@@ -53,7 +53,7 @@ const Main = styled.main`
 
 const ContentWrapper = styled.div`
   display: flex;
-  max-width: 1096px;
+  max-width: 1400px;
   width: 100%;
   gap: 20px;
 

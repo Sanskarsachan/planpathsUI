@@ -23,6 +23,7 @@ const SignUpForm = () => {
               type="email"
               placeholder="Enter your email ID"
               value={email}
+              autoComplete="email"
               onChange={(e) => setEmail(e.target.value)}
             />
             <InputField
@@ -32,6 +33,7 @@ const SignUpForm = () => {
               icon="https://cdn.builder.io/api/v1/image/assets/TEMP/8a415c732e512c783e5d6f0f29c6cca178b0cad46a3a3921ebcbffb70a8d45df?apiKey=6239683d8a6b4354886c43843da995e9&&apiKey=6239683d8a6b4354886c43843da995e9"
               hint="Between 8 and 16 characters"
               value={password}
+              autoComplete="create-password"
               onChange={(e) => setPassword(e.target.value)}
             />
             <InputField
@@ -40,6 +42,7 @@ const SignUpForm = () => {
               placeholder="Re-enter password"
               icon="https://cdn.builder.io/api/v1/image/assets/TEMP/db0f77e8f8648bc054d4950be1e959d139eb0a40b022dce0e5352ae68b48a184?apiKey=6239683d8a6b4354886c43843da995e9&&apiKey=6239683d8a6b4354886c43843da995e9"
               value={confirmPassword}
+              autoComplete="re-enter-password"
               onChange={(e) => setConfirmPassword(e.target.value)}
             />
             <Button type="submit" primary>Join for free</Button>

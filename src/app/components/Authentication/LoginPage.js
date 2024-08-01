@@ -26,6 +26,7 @@ const LoginForm = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                autoComplete="email"
               />
             </InputGroup>
             <InputGroup>
@@ -38,6 +39,7 @@ const LoginForm = () => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
+                  autoComplete="current-password"
                 />
                 <PasswordToggle src="https://cdn.builder.io/api/v1/image/assets/TEMP/a3b6830279754149ef1f7642b83076117437619fada034dc976af7fd35daae9b?apiKey=6239683d8a6b4354886c43843da995e9&&apiKey=6239683d8a6b4354886c43843da995e9" alt="Toggle password visibility" />
               </PasswordInputWrapper>
